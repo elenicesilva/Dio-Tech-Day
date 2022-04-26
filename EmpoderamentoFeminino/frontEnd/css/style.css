@@ -23,3 +23,28 @@ a {
      color: white !important;
      text-decoration: underline; 
 }
+
+.top-page {
+    margin-top: 52px;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #bf7d8f !important;
+    border-color: #bf7d8f !important;
+}
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color:#bf7d8f !important;
+    border-color:#bf7d8f !important;
+}
+
+.btn-outline-primary {
+    color: #bf7d8f !important;
+    border-color: #bf7d8f !important;
+}
+
+
+.tituloCentro {
+    text-align: center;
+}

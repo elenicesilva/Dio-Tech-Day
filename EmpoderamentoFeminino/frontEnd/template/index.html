@@ -20,11 +20,11 @@
 </head>
 
 <body  onload="init()">
-    <div class="container">
-        <div class="row">
+    <div class="container top-page">
+        <div cass="row">
             <div class="col">
                 <div class="card">
-                    <h5 class="card-header">Empoderamento Feminino</h5>
+                    <h5 class="card-header tituloCentro">Empoderamento Feminino</h5>
                 </div>
             </div>
         </div>
@@ -62,11 +62,11 @@
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Nova Solução de Empoderamento</h5>
               <div class="mg-l">
-                  <a class="btn btn-primary" id="Listaid" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      Lista
+                  <a class="btn btn-primary" id="Listaid" onclick="abrir(false)" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Listar
                     </a>
                 </div>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" onclick="reset()" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
               <div class="collapse" id="collapseExample">
                 <div class="card card-body">
@@ -85,29 +85,29 @@
                 </div>
               </div>
             <div class="modal-body">
-              <form>
+              <form onclick="form()">
                   <input type="hidden" id="idhiden" name="hiden" value="0">
                 <div class="mb-3">
                   <label for="recipient-name"  class="col-form-label">Nome:</label>
-                  <input type="text" id="name" class="form-control">
+                  <input type="text" id="name" class="form-control limpar">
                 </div>
                 <div class="mb-3">
                     <label for="recipient-name"  class="col-form-label">Url do site Oficial:</label>
-                    <input type="text" id="site" class="form-control">
+                    <input type="text" id="site" class="form-control limpar">
                   </div>
                   <div class="mb-3">
                     <label for="recipient-name"  class="col-form-label">Url do Canal do Youtube:</label>
-                    <input type="text" id="url" class="form-control">
+                    <input type="text" id="url" class="form-control limpar">
                   </div>
                 <div class="mb-3">
                   <label for="message-text" class="col-form-label">Descrição:</label>
-                  <textarea class="form-control"  id="descricao"></textarea>
+                  <textarea class="form-control limpar"  id="descricao"></textarea>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-              <button type="button" class="btn btn-primary" onclick="salvar()">Salvar</button>
+              <button type="button" class="btn btn-secondary" onclick="reset()" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-primary" onclick="salvar(idhiden.value)">Salvar</button>
             </div>
           </div>
         </div>
