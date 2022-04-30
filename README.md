@@ -26,10 +26,16 @@ que dentro fica divido em pasta o frontEnd e o BackEnd
     1º No GitBash clona o projeto que esta no Github para uma pasta local de sua escolha no seu computador
     2º Para rodar a Api no Backend, com o Microsoft Visual Studio abrir o projeto que fica
         ...\Dio-Tech-Day\EmpoderamentoFeminino\backEnd\EmpoderamentoFemenino.sln
+        No Visual Studio abrir a console do Nuget e rodar os comandos
+        migration
+        Em seguida rodar o outro comando
+        update-database
+
         Alterar a StringConection no aquivo appsettings.json dentro do projeto com os dado de user e password do seu banco 
         No menu, clicar na aba Build e na opção Build Solution em seguida Rodar a APi clicando no botão PLAY no Microsoft Visual Studio
 
         Visualizar o sistema abrir uma aba no navegador com uma url LocalHost da Swaagger da Api
+    
 
     3º Abrir a pasta do FrontEnd com o Visual Studio Code
         ...\Dio-Tech-Day\EmpoderamentoFeminino\frontEnd

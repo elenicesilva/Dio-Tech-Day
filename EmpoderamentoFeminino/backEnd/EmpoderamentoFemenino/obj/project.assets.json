@@ -7401,19 +7401,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\w.da.silva.leano\\.nuget\\packages\\": {}
+    "C:\\Users\\Elenice Silva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\w.da.silva.leano\\app\\Dio-Tech-Day\\EmpoderamentoFeminino\\backEnd\\EmpoderamentoFemenino\\EmpoderamentoFemenino.csproj",
+      "projectUniqueName": "C:\\Users\\Elenice Silva\\Documents\\GitHub Projetos\\Dio-Tech-Day\\EmpoderamentoFeminino\\backEnd\\EmpoderamentoFemenino\\EmpoderamentoFemenino.csproj",
       "projectName": "EmpoderamentoFemenino",
-      "projectPath": "C:\\Users\\w.da.silva.leano\\app\\Dio-Tech-Day\\EmpoderamentoFeminino\\backEnd\\EmpoderamentoFemenino\\EmpoderamentoFemenino.csproj",
-      "packagesPath": "C:\\Users\\w.da.silva.leano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\w.da.silva.leano\\app\\Dio-Tech-Day\\EmpoderamentoFeminino\\backEnd\\EmpoderamentoFemenino\\obj\\",
+      "projectPath": "C:\\Users\\Elenice Silva\\Documents\\GitHub Projetos\\Dio-Tech-Day\\EmpoderamentoFeminino\\backEnd\\EmpoderamentoFemenino\\EmpoderamentoFemenino.csproj",
+      "packagesPath": "C:\\Users\\Elenice Silva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Elenice Silva\\Documents\\GitHub Projetos\\Dio-Tech-Day\\EmpoderamentoFeminino\\backEnd\\EmpoderamentoFemenino\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\w.da.silva.leano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Elenice Silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7490,7 +7490,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
